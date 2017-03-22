@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_mine"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="10.0dip"
+            android:src="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/line" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/mine_top_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/user_photo"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:padding="10.0dip"
+            android:src="@mipmap/user_photo" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="游客"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/goto_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_goto_login" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/buy_photos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/buyed_icon"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="20.0dip"
+        android:text="@string/buy_photos" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/clear_cache"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/clear_cach_icon"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="20.0dip"
+        android:text="@string/clear_cache" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/check_version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/check_vision"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="20.0dip"
+        android:text="@string/check_version" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/about_us_icon"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="20.0dip"
+        android:text="@string/about_us" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginLeft="20.0dip"
+        android:background="@color/line" />
+
+    <TextView
+        android:id="@+id/login_out"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:drawableLeft="@mipmap/login_out_icon"
+        android:drawablePadding="10.0dip"
+        android:gravity="center_vertical"
+        android:padding="20.0dip"
+        android:text="@string/login_out" />
+</LinearLayout>

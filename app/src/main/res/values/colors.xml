@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffb957</color>
+    <color name="colorPrimaryDark">#ffffa629</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="line">#ffdadada</color>
+    <color name="black_translucent_cc">#cc000000</color>
+    <color name="btn_exit_init">#99eeeeee</color>
+    <color name="navpage">#FFE1E8EB</color>
+</resources>

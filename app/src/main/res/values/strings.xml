@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="about_us">关于我们</string>
+    <string name="app_name">宅品</string>
+    <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="back">返回</string>
+    <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
+    <string name="buy_photos">已购买</string>
+    <string name="change_password">重置密码</string>
+    <string name="character_counter_pattern">%1$d / %2$d</string>
+    <string name="check_version">版本更新(*)</string>
+    <string name="clear_cache">清除缓存(*)</string>
+    <string name="code_null">请输入验证码</string>
+    <string name="exit_init">跳过</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="get_code">获取验证码</string>
+    <string name="hint_code">请输入验证码</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_password_again">请再次输入密码</string>
+    <string name="hint_user_name">请输入用户名(手机号码)</string>
+    <string name="login">登录</string>
+    <string name="login_out">退出登录</string>
+    <string name="mine">我</string>
+    <string name="mine_photos">我的相册</string>
+    <string name="password_err">两次输入的密码不相同</string>
+    <string name="password_null">请输入密码</string>
+
+    <string name="pay_num">"如果想要查看此资源您需要支付 * 元 
+ 如果前面已经支付,相册后面的同类资源无需再次支付。"</string>
+    <string name="regist">注册</string>
+    <string name="regist2">修改密码</string>
+    <string name="same_city">同城</string>
+    <string name="user_name_null">请输入用户名</string>
+
+    <string name="pay_result_tip">微信支付</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+</resources>

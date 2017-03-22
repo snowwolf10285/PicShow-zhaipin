@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30.0dip"
+            android:gravity="center"
+            android:text=" 继续观看需支付 5 元"
+            android:textSize="25.0sp" />
+
+        <Button
+            android:id="@+id/ali_pay_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/price"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/btn_login"
+            android:text="支付宝"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/wechart_pay_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ali_pay_btn"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10.0dip"
+            android:background="@drawable/btn_login"
+            android:text="微信"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</RelativeLayout>
